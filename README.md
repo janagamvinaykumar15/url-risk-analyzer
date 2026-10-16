@@ -15,6 +15,7 @@ A lightweight, passive Python script designed for security auditing, reconnaissa
    ```bash
    git clone https://github.com/janagamvinaykumar15/url-risk-analyzer
    cd url-risk-analyzer
+   chmod +x analyze.py
    ```
 
 2. Ensure you have Python 3.x installed:
@@ -27,7 +28,7 @@ A lightweight, passive Python script designed for security auditing, reconnaissa
 Prepare a text file (`urls.txt`) containing one URL per line, then run the script:
 
 ```bash
-python analyze.py urls.txt
+python analayze.py urls.txt
 ```
 
 ### Example Output
@@ -42,7 +43,7 @@ python analyze.py urls.txt
 ```
 
 ## ⚙️ Customization
-You can easily add your own risk vectors by modifying the variables at the top of `analyze.py`:
+You can easily add your own risk vectors by modifying the variables at the top of `analayze.py`:
 - `RISK_EXTENSIONS`: Add file types you want to block or detect.
 - `RISK_KEYWORDS`: Add internal directory naming conventions unique to your targets.
 
